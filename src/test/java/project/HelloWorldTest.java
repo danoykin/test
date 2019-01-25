@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import project.HelloWorld;
 
-class HelloWorldTest {
+public class HelloWorldTest {
 
     @Test
     public void test() {
