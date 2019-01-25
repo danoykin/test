@@ -1,6 +1,10 @@
+package project;
+
 import org.junit.Test;
 
-class HelloWorldTestJava {
+import project.HelloWorld;
+
+class HelloWorldTest {
 
     @Test
     public void test() {
