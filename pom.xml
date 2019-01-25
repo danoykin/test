@@ -5,7 +5,7 @@
 
     <groupId>com.asteriosoft</groupId>
     <artifactId>test</artifactId>
-    <version>${build.version}</version>
+    <version>1.0</version>
     <packaging>jar</packaging>
 
     <name>test</name>
@@ -31,6 +31,12 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-collections4</artifactId>
             <version>4.1</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -69,16 +75,6 @@
             <version>1.2</version>
         </dependency>
         <dependency>
-            <groupId>com.maxmind.geoip2</groupId>
-            <artifactId>geoip2</artifactId>
-            <version>2.12.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.51degrees</groupId>
-            <artifactId>device-detection-core</artifactId>
-            <version>3.2.17.2</version>
-        </dependency>
-        <dependency>
             <groupId>com.fasterxml.jackson.dataformat</groupId>
             <artifactId>jackson-dataformat-csv</artifactId>
             <version>2.9.3</version>
@@ -88,12 +84,6 @@
             <artifactId>async-http-client</artifactId>
             <version>2.7.0</version>
         </dependency>
-        <dependency>
-            <groupId>com.asteriosoft</groupId>
-            <artifactId>openrtb</artifactId>
-            <version>master.54-SNAPSHOT</version>
-        </dependency>
-
     </dependencies>
 
     <build>
