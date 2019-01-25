@@ -1,11 +1,10 @@
 package project;
 
-import lombok.extern.slf4j.Slf4j;
+import javax.sound.midi.Soundbank;
 
-@Slf4j
 public class HelloWorld {
     public static void main(String[] args) {
-        log.info("Hello world!");
-        log.info("     - Your program");
+        System.out.println("Hello world!");
+        System.out.println("     - Your program");
     }
 }
